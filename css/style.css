@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.header {
+  text-align: center;
+  margin: 10px 0px;
+}
+#container {
+  margin: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#container > div > img {
+  margin-top: 20px;
+  height: 150px;
+  width: 250px;
+  border: 1px solid rgb(255, 148, 130);
+  margin-bottom: 5px;
+}
+#container > div {
+  margin: 20px;
+  padding-bottom: 20px;
+  border: 2px solid rgb(255, 148, 130);
+  /* text-align: left; */
+}
+#container > div > h4,
+h5,
+button {
+  margin-left: 20px;
+  text-align: left;
+}
